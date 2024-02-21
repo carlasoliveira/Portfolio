@@ -1,5 +1,47 @@
-.container{
-    border: 1px solid black;
-    margin: 40px;
-    background-color: grey;
+.secao-titulo{
+    background-color: #88AABF;
+    color: #FFFFFF;
+    padding: 2px;
+    text-align: center;
+    font-family: "Copperplate", fantasy;
 }
+.pagina-titulo{
+    background-color: #739CBF;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-family: "Copperplate", fantasy;
+}
+.secao-conteudo{
+    color: #515151;
+} 
+
+.menu{
+  display: grid;
+  place-items: center; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #739CBF;
+    font-family: "Copperplate", fantasy;  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #88AABF;
+  }
