@@ -1,47 +1,70 @@
-.secao-titulo{
-    background-color: #88AABF;
-    color: #FFFFFF;
-    padding: 2px;
-    text-align: center;
-    font-family: "Copperplate", fantasy;
+.secao-titulo {
+  background-color: #88AABF;
+  color: #FFFFFF;
+  padding: 2px;
+  text-align: center;
+  font-family: "Copperplate", fantasy;
 }
-.pagina-titulo{
-    background-color: #739CBF;
-    color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-    font-family: "Copperplate", fantasy;
-}
-.secao-conteudo{
-    color: #515151;
-} 
 
-.menu{
+.pagina-titulo {
+  background-color: #739CBF;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  font-family: "Copperplate", fantasy;
+}
+
+.lado-a-lado {
+  display: table-row;
+}
+
+.secao-conteudo {
+  color: #515151;
+  text-align: justify;
+}
+
+.secao-conteudo-imagem {
+  text-align: center;
+  vertical-align: middle;
+  width: 25%;
+  height: 50%;
+  display: table-cell;
+}
+
+.secao-conteudo-texto {
+  vertical-align: middle;
+  text-align: justify;
+  width: 75%;
+  height: 50%;
+  display: table-cell;
+}
+
+.menu {
   display: grid;
-  place-items: center; 
+  place-items: center;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #739CBF;
-    font-family: "Copperplate", fantasy;  
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 12px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #88AABF;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #739CBF;
+  font-family: "Copperplate", fantasy;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #88AABF;
+}
