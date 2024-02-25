@@ -14,13 +14,17 @@
   font-family: "Copperplate", fantasy;
 }
 
-.lado-a-lado {
-  display: table-row;
-}
-
 .secao-conteudo {
   color: #515151;
   text-align: justify;
+  font-family: "Copperplate", fantasy;
+  font-size: 18px;
+  padding: 20px;
+  line-height: 2;
+}
+
+.lado-a-lado {
+  display: table-row;
 }
 
 .secao-conteudo-imagem {
@@ -32,19 +36,26 @@
 }
 
 .secao-conteudo-texto {
+  color: #515151;
   vertical-align: middle;
   text-align: justify;
   width: 75%;
   height: 50%;
   display: table-cell;
+  font-family: "Copperplate", fantasy;
+  font-size: 18px;
+  padding: 20px;
+  line-height: 1.8;
 }
 
 .menu {
   display: grid;
   place-items: center;
+  font-size: 20px;
 }
 
-ul {
+/*Tira os marcadores da lista e formata o texto*/
+ul { 
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -53,18 +64,21 @@ ul {
   font-family: "Copperplate", fantasy;
 }
 
-li {
+/*Coloca os itens do menu lado a lado*/
+li { 
   float: left;
 }
 
-li a {
+/*Cria o efeito de botão para cada item do menu*/
+li a { 
   display: block;
   color: white;
   text-align: center;
   padding: 14px 12px;
   text-decoration: none;
-}
+} 
 
-li a:hover {
+/*Muda a cor dos botões do menu quando o cursor do mouse está sobre ele*/
+li a:hover { 
   background-color: #88AABF;
 }
