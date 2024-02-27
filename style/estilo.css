@@ -7,15 +7,6 @@ body {
   background-color: #F1F0F2;
 }
 
-.secao-titulo {
-  background-color: #88AABF;
-  color: #FFFFFF;
-  padding: 30px;
-  text-align: center;
-  font-family: "Copperplate", fantasy;
-}
-
-.pagina-titulo,
 header {
   background-color: #739CBF;
   color: #FFFFFF;
@@ -45,31 +36,6 @@ header {
   font-size: 18px;
   padding: 20px;
   line-height: 2;
-}
-
-.lado-a-lado {
-  display: table-row;
-}
-
-.secao-conteudo-imagem {
-  text-align: center;
-  vertical-align: middle;
-  width: 25%;
-  height: 50%;
-  display: table-cell;
-}
-
-.secao-conteudo-texto {
-  color: #515151;
-  vertical-align: middle;
-  text-align: justify;
-  width: 75%;
-  height: 50%;
-  display: table-cell;
-  font-family: "Copperplate", fantasy;
-  font-size: 18px;
-  padding: 20px;
-  line-height: 1.8;
 }
 
 nav {
