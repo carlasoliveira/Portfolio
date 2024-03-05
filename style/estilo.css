@@ -12,7 +12,6 @@ body {
 header {
   background-color: var(--primary-color);
   color: white;
-  padding: 20px;
   text-align: center;
   font-family: "Copperplate", fantasy;
   line-height: 1.8;
@@ -88,7 +87,6 @@ footer {
   color: white;
   font-family: "Copperplate", fantasy;
   font-size: large;
-  padding: 20px;
   line-height: 2;
   vertical-align: middle;
 }
