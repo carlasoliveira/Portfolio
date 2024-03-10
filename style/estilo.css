@@ -11,13 +11,12 @@ body {
 
 header {
   background-color: var(--primary-color);
-  color: white;
   text-align: center;
   font-family: "Copperplate", fantasy;
   line-height: 1.8;
 }
 
-.foto-perfil {
+.profile-picture {
   float: right;
   width: 250px;
   height: 250px;
@@ -30,7 +29,7 @@ header {
   display: table;
 }
 
-.secao-conteudo {
+.content-section {
   color: #515151;
   text-align: justify;
   font-family: "Copperplate", fantasy;
@@ -46,7 +45,7 @@ nav {
 }
 
 /*Tira os marcadores da lista e formata o texto*/
-.menu-navegacao ul {
+.navigation-menu ul {
 
   justify-content: center;
   list-style-type: none;
@@ -57,12 +56,12 @@ nav {
   font-family: "Copperplate", fantasy;
 }
 
-.menu-navegacao li {
+.navigation-menu li {
   float: left;
 }
 
 /*Cria o efeito de botão para cada item do menu*/
-.menu-navegacao li a {
+.navigation-menu li a {
   display: block;
   color: white;
   text-align: center;
@@ -71,7 +70,7 @@ nav {
 }
 
 /*Muda a cor dos botões do menu quando o cursor do mouse está sobre ele*/
-.menu-navegacao li a:hover {
+.navigation-menu li a:hover {
   background-color: #88AABF;
 }
 
@@ -122,7 +121,7 @@ footer {
   .main-navigation ul{
     flex-direction: column;
   }
-  .foto-perfil{
+  .profile-picture{
     float: none;
     display: block;
     margin: 0 auto;
@@ -134,7 +133,7 @@ footer {
   transition: box-shadow 0.6s;
 }
 
-.botao {
+.button {
   background-color: var(--primary-color);
   border: none;
   color: white;
