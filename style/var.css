@@ -1,4 +1,23 @@
-:root{
-    --primary-color: #739CBF;
+[data-tema='main']{
+    --main-primary-color: #739CBF;
+    --main-background-color: #88AABF;
+    --main-box-shadow-color: rgba(0, 0, 0, 0.1);
+    --main-box-shadow-color-hover: rgba#383838;
+    --main-font-color: #515151;
+    --main-body-background-color: #F0F1F2;
+    --main-menu-color: #F0F1F2;
+    --main-project-item-background: #F0F1F2;
 }
+
+[data-tema='dark']{
+    --main-primary-color: #000020;
+    --main-background-color: #171a4a;
+    --main-box-shadow-color: rgba(246, 245, 245, 0.1);
+    --main-box-shadow-color-hover: #000020;
+    --main-font-color: #dbd4fc;
+    --main-body-background-color: #000020;
+    --main-menu-color: #F0F1F2;
+    --main-project-item-background: #4e4c8a;
+}
+
   
