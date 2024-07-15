@@ -11,3 +11,19 @@ function alterarTema(){
     document.body.setAttribute("data-tema", novoTema);
     localStorage.setItem('tema', novoTema);
 }
+
+function copiarWhatsApp(){
+    const conteudo = document.getElementById('whatsapp').textContent;
+    navigator.clipboard.writeText(conteudo).then(()=>{
+        alert('Copiado para a área de transferência');
+    }).catch(error=>alert('Erro ao copiar', error));
+    alert("erro ao copiar conteúdo");
+}
+
+function copiarEmail(){
+    const conteudo = document.getElementById('email').textContent;
+    navigator.clipboard.writeText(conteudo).then(()=>{
+        alert('Copiado para a área de transferência');
+    }).catch(error=>alert('Erro ao copiar', error));
+    alert("erro ao copiar conteúdo");
+}
