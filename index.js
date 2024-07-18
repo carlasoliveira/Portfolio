@@ -17,7 +17,6 @@ function copiarWhatsApp(){
     navigator.clipboard.writeText(conteudo).then(()=>{
         alert('Copiado para a área de transferência');
     }).catch(error=>alert('Erro ao copiar', error));
-    alert("erro ao copiar conteúdo");
 }
 
 function copiarEmail(){
@@ -25,5 +24,4 @@ function copiarEmail(){
     navigator.clipboard.writeText(conteudo).then(()=>{
         alert('Copiado para a área de transferência');
     }).catch(error=>alert('Erro ao copiar', error));
-    alert("erro ao copiar conteúdo");
 }
