@@ -1,7 +1,7 @@
 function checkTheme(){
     const storedTheme = localStorage.getItem('tema');
     if(storedTheme){
-        document.body.setAttribute('data-tema', temaArmazenado);
+        document.body.setAttribute('data-tema', storedTheme);
     }
 }
 
