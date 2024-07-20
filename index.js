@@ -12,18 +12,9 @@ function alterarTema(){
     localStorage.setItem('tema', novoTema);
 }
 
-function copiarWhatsApp(){
-    const conteudo = document.getElementById('whatsapp').textContent;
-    navigator.clipboard.writeText(conteudo).then(()=>{
+function copy(htmlContent){
+    const content = document.getElementById(htmlContent).textContent;
+    navigator.clipboard.writeText(content).then(()=>{
         alert('Copiado para a área de transferência');
     }).catch(error=>alert('Erro ao copiar', error));
-    alert("erro ao copiar conteúdo");
-}
-
-function copiarEmail(){
-    const conteudo = document.getElementById('email').textContent;
-    navigator.clipboard.writeText(conteudo).then(()=>{
-        alert('Copiado para a área de transferência');
-    }).catch(error=>alert('Erro ao copiar', error));
-    alert("erro ao copiar conteúdo");
 }

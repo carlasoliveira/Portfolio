@@ -20,14 +20,14 @@
     <header id="menu">
         <nav class="navigation-menu">
             <ul>
-                <li class="menu-item"><a href="https://carlasoliveira.github.io/Portfolio/#about">Sobre</a></li>
-                <li class="menu-item"><a href="https://carlasoliveira.github.io/Portfolio/#skills">Conhecimento e
+                <li class="menu-item"><a href="#about">Sobre</a></li>
+                <li class="menu-item"><a href="#skills">Conhecimento e
                         habilidades</a></li>
-                <li class="menu-item"><a href="https://carlasoliveira.github.io/Portfolio/#professional-experience">Experiência
+                <li class="menu-item"><a href="#professional-experience">Experiência
                         profissional</a></li>
-                <li class="menu-item"><a href="https://carlasoliveira.github.io/Portfolio/#education">Histórico acadêmico</a></li>
-                <li class="menu-item"><a href="https://carlasoliveira.github.io/Portfolio/#featured-projects">Projetos em destaque</a></li>
-                <li class="menu-item"><a href="https://carlasoliveira.github.io/Portfolio/#contact">Contato</a></li>
+                <li class="menu-item"><a href="#education">Histórico acadêmico</a></li>
+                <li class="menu-item"><a href="#featured-projects">Projetos em destaque</a></li>
+                <li class="menu-item"><a href="#contact">Contato</a></li>
                 <li class="menu-item"><a href="#" onclick="alterarTema()" id="linkAlterarTema"><img src="/img/icon-theme.png" width="26px" alt="Alterar Tema"></a></li>
             </ul>
         </nav>
@@ -65,7 +65,7 @@
             <h1>Experiência profissional</h1>
             <h4>• Agente Administrativo na Prefeitura Municipal de Tamboara</h4>
             <p> Abril de 2024 - Atualmente <br>
-                Atribuições: realização de empenhos, emissão de relatórios e auxílio nas atividades do setor de contabilidade.
+                Atribuições: emissão relatórios e empenhos de despesas públicas, auxílio nas atividades do setor de contabilidade.
             </p>
             <br>
             <h4>• Instrutora de Informática no Centro Nacional Integrado de Cursos (CENAIC)</h4>
@@ -130,16 +130,24 @@
                         <p>Linguagens e tecnologias envolvidas: Java; Java Swing.</p>
                     </div>
                 </article>
+                <article class="project-item">
+                    <a href="https://carlasoliveira.github.io/Tools/" target="_blank" rel="noopener noreferrer"  title="Repositório no GitHub" style="width: auto;"><img src="img/photo-tools.png" alt="Representação do projeto"></a>
+                    <div class="project-info">
+                        <h3>Ferramentas utilitárias</h3>
+                        <p>Contador de caracteres; calculadora de regra de três, calculadora de acrécismo e desconto percentual e buscador de CEP com API integrada. Desenvolvidas na disciplina de Programação Web do curso de Bacharelado em
+                            Engenharia de Software.</p>
+                        <p>Linguagens e tecnologias envolvidas: HTML, CSS, JavaScript.</p>
+                    </div>
+                </article>
             </div>
         </section>
         <section id="contact" class="content-section">
             <h1>Contato</h1>
-            <p id="whatsapp">WhatsApp: (44) 9 99165-0993</p>
-            <a href="https://wa.me/5544991650993" id="numeroWhatsApp" target="_blank" rel="noopener noreferrer" title="WhatsApp"><img src="img/icon-whatsapp.png" alt="WhatsApp" style="width:50px;height:50px;"></a>
-            <a href="#" class="button" onclick="copiarWhatsApp()" title="Copiar WhatsApp">Copiar WhatsApp</a>
-            <p id="email">E-mail: contato.carlasoliveira@gmail.com</p>
-            <a href="mailto:contato.carlasoliveira@gmail.com" target="_blank" rel="noopener noreferrer" title="Enviar e-mail"><img src="img/icon-gmail.png" alt="E-mail" style="width:50px;height:50px;"></a>
-            <a href="#" class="button" onclick="copiarEmail()" title="Copiar E-mail">Copiar E-mail</a>
+            
+            <a href="#contato" onclick="copy('whatsapp')" title="WhatsApp"><img src="img/icon-whatsapp.png" alt="WhatsApp" style="width:50px;height:50px;"></a>
+            <p id="whatsapp">(44) 9 99165-0993</p>
+            <a href="#contato" onclick="copy('email')" title="E-mail"><img src="img/icon-gmail.png" alt="E-mail" style="width:50px;height:50px;"></a>
+            <p id="email">contato.carlasoliveira@gmail.com</p>
         </section>
     </main>
     <footer>

@@ -4,7 +4,9 @@
   padding: 0;
   margin: 0;
 }
-
+h1 {
+  text-align: left;
+}
 body {
   background-color: var(--main-body-background-color);
 }
@@ -46,7 +48,6 @@ nav {
 
 /*Tira os marcadores da lista e formata o texto*/
 .navigation-menu ul {
-
   justify-content: center;
   list-style-type: none;
   margin: 0;
