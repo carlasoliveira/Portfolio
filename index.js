@@ -17,4 +17,14 @@ function copy(htmlContent){
     navigator.clipboard.writeText(content).then(()=>{
         alert('Copiado para a área de transferência');
     }).catch(error=>alert('Erro ao copiar', error));
+<<<<<<< HEAD
+=======
+}
+
+function copiarEmail(){
+    const conteudo = document.getElementById('email').textContent;
+    navigator.clipboard.writeText(conteudo).then(()=>{
+        alert('Copiado para a área de transferência');
+    }).catch(error=>alert('Erro ao copiar', error));
+>>>>>>> 05736f20a5f27678f4e2dd7300e37b2ea2d9cede
 }
