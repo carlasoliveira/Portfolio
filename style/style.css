@@ -118,9 +118,13 @@ footer {
   margin-top: 20px;
 }
 
-@media screen and (width: 768px) {
-  .main-navigation ul{
-    flex-direction: column;
+@media screen and (max-width: 768px) {
+  .navigation-menu li{
+    float: none;
+
+  }
+  .navigation-menu li a{
+    text-align: left;
   }
   .profile-picture{
     float: none;
