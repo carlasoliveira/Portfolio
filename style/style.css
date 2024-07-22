@@ -126,6 +126,7 @@ footer {
   }
   .navigation-menu li a{
     text-align: left;
+    font-size: x-large;
   }
   .profile-picture{
     float: none;
